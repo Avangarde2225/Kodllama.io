@@ -1,6 +1,6 @@
 package Intermediate.Inheritance;
 
-public class CorporateCustomer {
+public class CorporateCustomer extends Customer{
 
     String companyName;
     String taxNumber;
