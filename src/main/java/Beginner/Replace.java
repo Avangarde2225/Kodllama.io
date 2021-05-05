@@ -8,6 +8,11 @@ public class Replace {
         System.out.println(newStr);
 
         System.out.println(str.substring(4));
-        System.out.println(str.substring(4,11));
+        System.out.println(str.substring(4, 11));
+
+        for (String s : str.split(" ")) {
+
+            System.out.println(s);
+        }
     }
 }
